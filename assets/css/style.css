@@ -10,7 +10,10 @@ h1 {
 header {
     height: 40em;
     width: 100%;
+}
 
+div {
+    margin: 0px;
 }
 
 #hero-div {
@@ -66,4 +69,23 @@ header {
 
 #hero-button {
     display: inline-block;
+}
+
+#adults-boxing-image {
+    height: 20em;
+    width: 100%;
+    background: url("../img/mark-adriane-FH6JcaCrYJ0-unsplash.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#child-boxing-image {
+    height: 20em;
+    width: 100%;
+    background: url("../img/pexels-pavel-danilyuk-6296054.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.col-12, .col-6 {
+    padding-left: 0px;
+    padding-right: 0px;
 }
