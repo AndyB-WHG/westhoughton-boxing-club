@@ -1,17 +1,54 @@
 #hero-image {
-    height: 400px;
+    position: absolute;
+    text-align: center;
+    height: 40em;
     width: 100%;
     background: url("../img/david-guliciuc-o2zrjlM5s5o-unsplash.jpg") no-repeat center center;
     background-size: cover;
 }
 
 h1 {
+    background-color: #0e0d0d80;
     color: #fafafa;
     text-align: center;
-    padding-top: 230px;
+    border-top: 30%;
+    padding-top: 1px;
+    display: inline-block;
 }
 
 #hero-image p {
     color: #fafafa;
     text-align: center;
+    background-color: #0e0d0d99;
+    display: inline-block;
+    padding-left: 10px;    
+    padding-right: 10px;
+}
+
+.nav-right {
+    display: inline-block;
+}
+
+.nav-column {
+    display: block;
+}
+
+
+/* nav {
+    background-color: #db222280;
+}
+
+.brand {
+    color: #fafafa;
+    font-size: 115%;
+    text-decoration: none;
+} */
+
+.spacer {
+    height: 400px;
+    width:  100%;
+}
+
+#hero-button {
+    display: inline-block;
 }
