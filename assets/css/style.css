@@ -1,12 +1,3 @@
-#hero-image {
-    position: absolute;
-    text-align: center;
-    height: 40em;
-    width: 100%;
-    background: url("../img/david-guliciuc-o2zrjlM5s5o-unsplash.jpg") no-repeat center center;
-    background-size: cover;
-}
-
 h1 {
     background-color: #0e0d0d80;
     color: #fafafa;
@@ -16,6 +7,26 @@ h1 {
     display: inline-block;
 }
 
+header {
+    height: 40em;
+    width: 100%;
+
+}
+
+#hero-div {
+    height: 40em;
+    width: 100%;
+}
+
+#hero-image {
+    display: block;
+    text-align: center;
+    height: 40em;
+    width: 100%;
+    background: url("../img/david-guliciuc-o2zrjlM5s5o-unsplash.jpg") no-repeat center center;
+    background-size: cover;
+}
+
 #hero-image p {
     color: #fafafa;
     text-align: center;
@@ -23,6 +34,10 @@ h1 {
     display: inline-block;
     padding-left: 10px;    
     padding-right: 10px;
+}
+
+#main-content {
+    display: block;
 }
 
 .nav-right {
