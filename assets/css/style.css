@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Prompt:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Exo&family=Montserrat:ital,wght@0,300;0,500;1,300&display=swap');
+
+body {
+    font-family: 'Exo', sans-serif;  
+    
+}
+
 h1 {
     background-color: #0e0d0d80;
     color: #fafafa;
