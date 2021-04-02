@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Prompt:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Exo&family=Montserrat:ital,wght@0,300;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Exo&family=Montserrat:ital,wght@0,300;0,500;1,300&family=Play:wght@700&display=swap');
 
 * {
     padding: 0;
@@ -31,6 +31,37 @@ div {
     margin: 0px;
 }
 
+nav {
+    background-color: #fafafa;    
+    color: black;
+}
+
+nav a {
+    color: black;
+}
+
+footer {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: chocolate;
+}
+
+footer h5 {
+    font-size: 80%;
+    font-family: 'Play';
+    color: #fafafa;
+}
+
+#intro-section {
+    padding: 5%;
+    font-size: 2em;
+    color: #fafafa;
+    background-color: chocolate;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    margin-bottom: 0;
+}
+
 #hero-div {
     height: 40em;
     width: 100%;
@@ -57,6 +88,8 @@ div {
 #main-content {
     display: block;
 }
+
+
 
 .nav-right {
     display: inline-block;
@@ -105,6 +138,16 @@ div {
     padding-right: 0px;
 }
 
+.class-times {
+    padding-top: 7%;
+}
+
 .class-times h3, .class-times h4 {
-    text-align: center;
+    text-align: center;    
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
