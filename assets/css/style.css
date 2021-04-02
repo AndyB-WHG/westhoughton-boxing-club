@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Exo&family=Montserrat:ital,wght@0,300;0,500;1,300&display=swap');
 
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
 body {
     font-family: 'Exo', sans-serif;  
     
@@ -97,4 +103,8 @@ div {
 .col-12, .col-6 {
     padding-left: 0px;
     padding-right: 0px;
+}
+
+.class-times h3, .class-times h4 {
+    text-align: center;
 }
