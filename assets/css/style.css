@@ -188,3 +188,9 @@ footer h5 {
     padding-right: 2%;   
     padding-top: 0.5%; 
 }
+
+@media screen and (max-width: 576px) {
+    .flex-container {
+    display: flex;
+    flex-direction: column-reverse;}
+}
