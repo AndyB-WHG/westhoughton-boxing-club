@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Prompt:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700|Prompt:100,200,300,400,500,600,700');
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Exo&family=Montserrat:ital,wght@0,300;0,500;1,300&family=Play:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
 
 * {
     padding: 0;
@@ -133,6 +133,13 @@ footer h5 {
     background-size: cover;
 }
 
+#fitness-session-image {
+    height: 20em;
+    width: 100%;
+    background: url("../img/fitness-session-image.jpg") no-repeat center center;
+    background-size: cover;
+}
+
 .col-12, .col-6 {
     padding-left: 0px;
     padding-right: 0px;
@@ -150,4 +157,16 @@ footer h5 {
     position: fixed;
     width: 100%;
     z-index: 10;
+}
+
+.social-media li {
+    display: inline;
+    color: #fafafa;    
+}
+
+.social-media i {
+    font-size: 120%;
+    color: #fafafa;
+    padding-right: 2%;   
+    padding-top: 0.5%; 
 }
