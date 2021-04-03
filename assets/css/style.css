@@ -31,14 +31,15 @@ div {
     margin: 0px;
 }
 
-nav {
-    background-color: #fafafa;    
-    color: black;
+/* nav {
+    background-color: #020202;    
 }
 
 nav a {
     color: black;
-}
+} */
+
+
 
 footer {
     padding-top: 2%;
@@ -50,6 +51,14 @@ footer h5 {
     font-size: 80%;
     font-family: 'Play';
     color: #fafafa;
+}
+
+#home-icon {
+    font-family: 'Exo';
+    color: #555555;
+    margin-left: 10px;
+    vertical-align: auto;
+    display: inline;
 }
 
 #intro-section {
@@ -89,8 +98,6 @@ footer h5 {
     display: block;
 }
 
-
-
 .nav-right {
     display: inline-block;
 }
@@ -98,17 +105,6 @@ footer h5 {
 .nav-column {
     display: block;
 }
-
-
-/* nav {
-    background-color: #db222280;
-}
-
-.brand {
-    color: #fafafa;
-    font-size: 115%;
-    text-decoration: none;
-} */
 
 .spacer {
     height: 400px;
