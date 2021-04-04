@@ -114,6 +114,12 @@ footer h5 {
     margin-top: 10px;
 }
 
+#contact-banner {
+    margin-top: 3em;
+    z-index: 2;
+    font-size: 3em;
+}
+
 .nav-right {
     display: inline-block;
 }
@@ -129,6 +135,12 @@ footer h5 {
 
 #hero-button {
     display: inline-block;
+}
+
+.book-session {
+    margin-top: 2em;
+    color: #fafafa;
+    background-color: chocolate;
 }
 
 

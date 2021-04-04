@@ -40,7 +40,9 @@
     <header id="hero-image" alt="boxing ring picture">
         <div id="hero-div" class="container-fluid">           
             <div class="callout">
-                <div class="spacer"></div>
+                
+                <div class="spacer"><p id="contact-banner" class="text-uppercase lead">Contact Us</p></div>
+                
                 <h1 class="text-uppercase">Westhoughton Boxing Club</h1>
                 <div></div>
                 <p class="text-uppercase lead">Get fit, make friends, take part</p>
@@ -54,69 +56,43 @@
         </div>
     </header>
 
-    <section id="main-content">
-        <p id="intro-section">
-            Whether you're looking to get fit, learn new skills, build confidence or feel a sense of achievement, boxing
-            can provide all that and more. Join us today and achieve your goals.
-        </p>
+    <section class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="book-session">
+            <h2>Lets get training!</h2>
+            <label for="fname">First Name</label>
+            <input id="fname" type="text" name="first_name" required>
+            
+            <label for="lname">Last Name</label>
+            <input id="lname" type="text" name="last_name" required>
+            
+            <label for="email">Email Address</label>
+            <input id="email" type="email" name="email_address" required>
+            
+            <label for="adult">Adult Class</label>
+            <input id="adult" type="radio" name="session-choice" value="adult" required>
+            
+            <label for="kids">Kids Class</label>
+            <input id="kids" type="radio" name="session-choice" value="kids">
+            
+            <label for="boxercise">Boxersize</label>
+            <input id="boxercise" type="radio" name="session-choice" value="boxercise">
 
+            <label for="strength">Strength Training</label>
+            <input id="strength" type="radio" name="session-choice" value="strength">
+
+            <label for="enduro">Enduro HIIT</label>
+            <input id="enduro" type="radio" name="session-choice" value="enduro">
+            
+            <input type="submit" value="Let's Run!">
+            
+        </form>
+  
+    </section> 
+
+    <section id="main-content">
+        
         <div class="container-fluid">
 
-            <div class="row">
-
-                <div class="col-12 col-md-6">
-                    <div id="adults-boxing-image" alt="Boxing image by David Guliciuc on Unsplash"></div>
-                </div>
-
-
-                <div id="adult-class-times" class="class-times col-md-6">
-                    <h3 class="text-uppercase">
-                        Adult Classes
-                    </h3>
-                    <h4>
-                        Monday: 7:00pm
-                    </h4>
-                    <h4>
-                        Wednesday: 7:30pm
-                    </h4>
-                    <h4>
-                        Friday: 7:30pm
-                    </h4>                    
-                    <p class="booking-details-box">
-                        <a href="#" class="booking-details-button">
-                            Booking Details
-                        </a>
-                    </p>    
-                </div>
-
-            </div>
-            <div class="row flex-container">
-
-                <div id="kids-class-times" class="class-times col-md-6">
-                    <h3 class="text-uppercase">
-                        Kids Classes
-                    </h3>
-                    <h4>
-                        Monday: 4:30pm
-                    </h4>
-                    <h4>
-                        Wednesday: 5:00pm
-                    </h4>
-                    <h4>
-                        Friday: 5:00pm
-                    </h4>
-                    <p class="booking-details-box">
-                        <a href="#" class="booking-details-button">
-                            Booking Details
-                        </a>
-                    </p>
-                </div>
-
-                <div class="col-md-6">
-                    <div id="child-boxing-image" alt="Boxing image by David Guliciuc on Unsplash"></div>
-                </div>
-
-            </div>
             <div class="row">
 
                 <div class="col-md-6">
