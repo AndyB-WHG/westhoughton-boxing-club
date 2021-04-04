@@ -101,6 +101,19 @@ footer h5 {
     display: block;
 }
 
+#sign-up-button {
+    font-size: 1.2em;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fafafa;
+    background-color: rgb(46, 141, 46);
+    text-decoration: none;
+}
+
+#sign-up-button-wrapper {
+    margin-top: 10px;
+}
+
 .nav-right {
     display: inline-block;
 }
