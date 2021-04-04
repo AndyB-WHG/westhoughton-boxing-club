@@ -45,7 +45,7 @@ nav a {
 
 footer {
     padding-left: 2%;
-    padding-top: 2%;
+    padding-top: 2em;
     padding-bottom: 2%;
     background-color: chocolate;
 }
@@ -146,8 +146,6 @@ footer h5 {
     display: inline-block;
     padding: 3em;    
     /* width: 50%; */
-    
-    
 }
 
 .book-session h2 {
@@ -155,14 +153,22 @@ footer h5 {
     margin-bottom: 1em;
 }
 
+.fa-dumbbell {
+    padding-left: 2%;
+}
+
 .text-input {
+    padding-left: 0.5em;
     width: 100%;
     height: 2em;
     margin-bottom: 1em;
     border-width: 1px;  
     border-style: solid; 
-    border-color: #fafafa;
     border-radius: 2px;
+}
+
+.text-input:hover {
+    background: #dad8d8;
 }
 
 .submit-training-button {
@@ -174,10 +180,13 @@ footer h5 {
     background: rgb(46, 141, 46);
     color: #fafafa;
     display: block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #555555;
 }
 
-.submit-training-button :hover {
-    border-color: #f16c6b;
+.submit-training-button:hover {
+    border-color: #180808;
 }
 
 
@@ -205,6 +214,7 @@ footer h5 {
 .col, .col-md-6 {
     padding-left: 0px;
     padding-right: 0px;
+    
 }
 
 .class-times {
@@ -225,7 +235,6 @@ footer h5 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5%;
 }
 
 .booking-details-box a {
