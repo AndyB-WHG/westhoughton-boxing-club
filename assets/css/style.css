@@ -145,7 +145,7 @@ footer h5 {
     background-color: chocolate;
     display: inline-block;
     padding: 3em;    
-    /* width: 50%; */
+    width: 100%;
 }
 
 .book-session h2 {
@@ -171,6 +171,14 @@ footer h5 {
     background: #dad8d8;
 }
 
+/* #boxercise {
+    display: block;
+}
+
+#enduro {
+    display: inline-block;
+} */
+
 .submit-training-button {
     margin-top: 3em;
     border-radius: 8px;
@@ -188,6 +196,41 @@ footer h5 {
 .submit-training-button:hover {
     border-color: #180808;
 }
+
+
+/*   Radio Button Styling  - with thanks and appreciation to MarkHeath.net for the coding example */
+
+.book-session input[name="session-choice"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+.book-session label[class="radio-label-training"] {
+    display: inline-block;
+    background-color: rgb(54, 52, 52);
+    padding: 5px 10px;
+    font-family: 'Exo', sans-serif, Arial;
+    font-size: 1em;
+    border: 2px solid #444;
+    border-radius: 4px;
+}
+
+.book-session input[name="session-choice"]:checked + label {
+    background-color:#bfb;
+    border-color: #4c4;
+    color: black;
+}
+
+.book-session input[name="session-choice"]:focus + label {
+    border: 2px solid #444;
+}
+
+.book-session p{
+    font-size: 1.1em;
+}
+
+/*   End of Radio Button styling */
 
 
 #adults-boxing-image {

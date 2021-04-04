@@ -70,21 +70,23 @@
         <label for="email">Email Address</label>
         <input class="text-input" id="email" type="email" name="email_address" required>
 
-        <label for="adult">Adult Class</label>
-        <input id="adult" type="radio" name="session-choice" value="adult" required>
+        <p>Select a session:</p>
 
-        <label for="kids">Kids Class</label>
-        <input id="kids" type="radio" name="session-choice" value="kids">
-
-        <label for="boxercise">Boxersize</label>
-        <input id="boxercise" type="radio" name="session-choice" value="boxercise">
-
-        <label for="strength">Strength Training</label>
-        <input id="strength" type="radio" name="session-choice" value="strength">
-
-        <label for="enduro">Enduro HIIT</label>
-        <input id="enduro" type="radio" name="session-choice" value="enduro">
-
+        <input class="radio-training" id="adult" type="radio" name="session-choice" value="adult" required>
+        <label class="radio-label-training" for="adult">Adult Class</label>
+        
+        <input class="radio-training" id="kids" type="radio" name="session-choice" value="kids">
+        <label class="radio-label-training" for="kids">Kids Class</label>
+        
+        <input class="radio-training" id="boxercise" type="radio" name="session-choice" value="boxercise">
+        <label class="radio-label-training"  for="boxercise">Boxersize</label>
+        
+        <input class="radio-training" id="strength" type="radio" name="session-choice" value="strength">
+        <label class="radio-label-training"  for="strength">Strength Training</label>
+        
+        <input class="radio-training" id="enduro" type="radio" name="session-choice" value="enduro">
+        <label class="radio-label-training" for="enduro">Enduro HIIT</label>
+        
         <input class="submit-training-button" type="submit" value="Book Training!">
 
     </form>
