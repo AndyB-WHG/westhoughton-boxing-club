@@ -76,18 +76,29 @@ footer h5 {
 }
 
 #hero-div {
-    height: 40em;
+    height: 35em;
     width: 100%;
 }
 
 #hero-image {
     display: block;
     text-align: center;
-    height: 40em;
+    height: 35em;
     width: 100%;
     background: url("../img/boxing-ring-hero-image.jpg") no-repeat center center;
     background-size: cover;
 }
+/* assets/img/black-boxing-gloves-photo.jpg */
+
+#contact-page-hero-image {
+    display: block;
+    text-align: center;
+    height: 35em;
+    width: 100%;
+    background: url("../img/black-boxing-gloves-photo.jpg") no-repeat center center;
+    background-size: cover;
+}
+/* Photo by Prateek Katyal on Unsplash */
 
 #hero-image p {
     color: #fafafa;
@@ -115,12 +126,6 @@ footer h5 {
     margin-top: 10px;
 }
 
-#contact-banner {
-    margin-top: 6em;
-    z-index: 2;
-    font-size: 3em;
-}
-
 .nav-right {
     display: inline-block;
 }
@@ -130,7 +135,7 @@ footer h5 {
 }
 
 .spacer {
-    height: 400px;
+    height: 300px;
     width:  100%;
 }
 
@@ -140,8 +145,10 @@ footer h5 {
 
 .book-session {
     font-size: 0.8em;
-    padding-left: 1em;
+    /* padding-left: 1em;
     padding-top: 2em;
+    padding-bottom: 3em;
+    padding-right: 3em; */
     color: #fafafa;
     background-color: chocolate;
     display: inline-block;
@@ -257,16 +264,13 @@ footer h5 {
     background-size: cover;
 }
 
-/* #contact-us {
-    padding-left: 7em;
-} */
-
 #contact-us p {
     margin: 0;
 }
 
 #contact-us h3 {
-    padding-top: 1.2em
+    padding-top: 0.9em;
+    text-transform: uppercase;
 }
 
 #contact-us row {
@@ -281,6 +285,10 @@ footer h5 {
     height: 395px;
 }
 
+.contact-main {
+   
+}
+
 .days-of-week, .opening-times {
     display: inline-block;
     font-size: 100%;
@@ -292,6 +300,7 @@ footer h5 {
 
 #contact-text-block {
     text-align: center;
+    padding-top: 0%;
 }
 
 .col, .col-md-6 {
@@ -312,7 +321,7 @@ footer h5 {
 }
 
 /* .class-times {
-    padding-top: 5%;
+    padding-top: 2%;
 } */
 
 .class-times h3, .class-times h4 {
@@ -354,13 +363,19 @@ footer h5 {
     padding-top: 0.5%; 
 }
 
-@media screen and (max-width: 576px) {
-.session-box {
+@media screen and (max-width: 767px) {
+.callout p, #intro-section {
+    font-size: 1.2em;}
+}
+        
+
+@media screen and (max-width: 768px) {
+.class-times {
     padding-top: 2em;
     padding-bottom: 2em;}
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
 .class-times h4{
     font-size: 1.1em;}
 }
@@ -371,7 +386,7 @@ footer h5 {
     flex-direction: column-reverse;}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     #contact-us {
     /* padding-left: 2em; */
     padding-bottom: 2em;
