@@ -87,11 +87,13 @@ This section should describe the process you went through to deploy the project 
 ## Credits
 
 ### Content
-- The text for section Y was copied from …….
+- Coding for the re-styled radio buttons within the booking form on the Contact Page was copied and adapted from Markheath.net (https://markheath.net/post/customize-radio-button-css).
 ### Media
-- The photos used in this site were obtained from Unsplash.com, Pexels.com and Shutterstock.com.
+- The photos used in this site were obtained from Unsplash.com and Pexels.com.
 
 ### Acknowledgements
 
 - I received inspiration for this project from Code Institute who originally suggested a ‘gym’ website, which led to a variation on that theme due to my interest in boxing. 
 - Ideas for design layout came from websites for ‘The Rathbone Boxing Club’ in London, ‘The Fight Factory’ boxing club in Manchester and ‘MTK Liverpool’ boxing and fitness club.
+- General information and knowledge came from both the Code Institute course materials and W3Schools.com.
+- Image optimisation information was gained from Jimdo.com (https://www.jimdo.com/blog/optimize-website-images-for-better-design-seo/)

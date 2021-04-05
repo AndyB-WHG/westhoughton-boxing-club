@@ -115,7 +115,7 @@ footer h5 {
 }
 
 #contact-banner {
-    margin-top: 3em;
+    margin-top: 6em;
     z-index: 2;
     font-size: 3em;
 }
@@ -233,6 +233,8 @@ footer h5 {
 /*   End of Radio Button styling */
 
 
+
+
 #adults-boxing-image {
     height: 20em;
     width: 100%;
@@ -253,6 +255,33 @@ footer h5 {
     background: url("../img/fitness-session-image.jpg") no-repeat center center;
     background-size: cover;
 }
+
+#contact-us {
+    padding-left: 7em;
+}
+
+#contact-us p {
+    margin: 0;
+}
+
+#contact-us h3 {
+    padding-top: 1em
+}
+
+#address {
+    padding-top: 1em;
+}
+
+.days-of-week, .opening-times {
+    display: inline-block;
+    font-size: 100%;
+}
+
+.days-of-week {
+    width: 7em;
+}
+
+
 
 .col, .col-md-6 {
     padding-left: 0px;
@@ -307,4 +336,9 @@ footer h5 {
     .flex-container {
     display: flex;
     flex-direction: column-reverse;}
+}
+
+@media screen and (max-width: 768px) {
+    #contact-us {
+    padding-left: 2em;
 }
