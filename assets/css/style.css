@@ -256,16 +256,20 @@ footer h5 {
     background-size: cover;
 }
 
-#contact-us {
+/* #contact-us {
     padding-left: 7em;
-}
+} */
 
 #contact-us p {
     margin: 0;
 }
 
 #contact-us h3 {
-    padding-top: 1em
+    padding-top: 1.2em
+}
+
+#contact-us row {
+    display: block;
 }
 
 #address {
@@ -281,7 +285,9 @@ footer h5 {
     width: 7em;
 }
 
-
+#contact-text-block {
+    text-align: center;
+}
 
 .col, .col-md-6 {
     padding-left: 0px;
@@ -340,5 +346,6 @@ footer h5 {
 
 @media screen and (max-width: 768px) {
     #contact-us {
-    padding-left: 2em;
+    /* padding-left: 2em; */
+    padding-bottom: 2em;
 }
