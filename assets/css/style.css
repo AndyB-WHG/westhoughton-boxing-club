@@ -48,6 +48,7 @@ footer {
     padding-top: 2em;
     padding-bottom: 2%;
     background-color: chocolate;
+    margin: 0px;
 }
 
 footer h5 {
@@ -276,6 +277,10 @@ footer h5 {
     padding-top: 1em;
 }
 
+#map {
+    height: 395px;
+}
+
 .days-of-week, .opening-times {
     display: inline-block;
     font-size: 100%;
@@ -296,7 +301,7 @@ footer h5 {
 }
 
 .class-times {
-    padding-top: 3%;
+    padding-top: 5%;
 }
 
 .class-times h3, .class-times h4 {
@@ -337,6 +342,8 @@ footer h5 {
     padding-right: 2%;   
     padding-top: 0.5%; 
 }
+
+
 
 @media screen and (max-width: 576px) {
     .flex-container {
