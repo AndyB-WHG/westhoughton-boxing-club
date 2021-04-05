@@ -300,9 +300,20 @@ footer h5 {
     
 }
 
-.class-times {
-    padding-top: 5%;
+.session-box {
+    /* padding-top: 3%;
+    padding-bottom: 3%; */
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
+.session-box h3 {
+    padding-top: 3%;
+}
+
+/* .class-times {
+    padding-top: 5%;
+} */
 
 .class-times h3, .class-times h4 {
     text-align: center;    
@@ -343,9 +354,18 @@ footer h5 {
     padding-top: 0.5%; 
 }
 
-
+@media screen and (max-width: 576px) {
+.session-box {
+    padding-top: 2em;
+    padding-bottom: 2em;}
+}
 
 @media screen and (max-width: 576px) {
+.class-times h4{
+    font-size: 1.1em;}
+}
+
+@media screen and (max-width: 767px) {
     .flex-container {
     display: flex;
     flex-direction: column-reverse;}
