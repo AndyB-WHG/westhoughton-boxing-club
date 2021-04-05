@@ -380,6 +380,11 @@ footer h5 {
     padding-top: 0.5%; 
 }
 
+.card {
+    display: inline-block;
+    width: 30%;
+}
+
 @media screen and (max-width: 767px) {
 .callout p, #intro-section {
     font-size: 1.2em;}
