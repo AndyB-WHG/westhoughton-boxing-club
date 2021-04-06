@@ -401,6 +401,14 @@ footer h5 {
     color: #aaabb4;
 }
 
+#gym-body {
+    background: #0a0a0a;
+}
+
+#gym-cards-section {
+     margin-left: 2.5%;
+}
+
     /* .card-one {
         
     }
@@ -416,13 +424,15 @@ footer h5 {
 .card {
     display: inline-block;
     width: 600px;
-    border: 20px
-    height: 200px;
+    padding: 20px;
+    margin-bottom: 5px;
+    
 }
 
-/* .card-body {
-    height: 100px;
-} */
+.card-body {
+    height: 200px;
+    padding: 30px;
+}
 
 @media screen and (max-width: 767px) {
 .callout p, #intro-section {
@@ -450,5 +460,5 @@ footer h5 {
 @media screen and (max-width: 767px) {
     #contact-us {
     /* padding-left: 2em; */
-    padding-bottom: 2em;
+    padding-bottom: 2em;}
 }
