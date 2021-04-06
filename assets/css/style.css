@@ -48,7 +48,7 @@ footer {
     padding-top: 2em;
     padding-bottom: 2%;
     background-color: chocolate;
-    margin: 0px;
+    margin: 0px; 
 }
 
 footer h5 {
@@ -406,32 +406,14 @@ footer h5 {
 }
 
 #gym-cards-section {
-     margin-left: 2.5%;
+    width: 100%;
+     margin-right: 0;
 }
-
-    /* .card-one {
-        
-    }
-
-    .card-two {
-        left: 4.75%;
-    }
-
-    .card-three {
-        left: 7.5%;
-    } */
 
 .card {
-    display: inline-block;
-    width: 600px;
-    padding: 20px;
-    margin-bottom: 5px;
-    
-}
+    border: 0px;
+    padding: 10px;
 
-.card-body {
-    height: 200px;
-    padding: 30px;
 }
 
 @media screen and (max-width: 767px) {
