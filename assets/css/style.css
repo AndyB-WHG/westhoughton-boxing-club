@@ -401,9 +401,22 @@ footer h5 {
     color: #aaabb4;
 }
 
+    /* .card-one {
+        
+    }
+
+    .card-two {
+        left: 4.75%;
+    }
+
+    .card-three {
+        left: 7.5%;
+    } */
+
 .card {
     display: inline-block;
-    width: 30%;
+    width: 600px;
+    border: 20px
     height: 200px;
 }
 
