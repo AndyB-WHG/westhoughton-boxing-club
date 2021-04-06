@@ -57,12 +57,19 @@ footer h5 {
     color: #fafafa;
 }
 
+
+
 #home-icon {
     font-family: 'Exo';
-    color: #555555;
+    color: #686464;
     margin-left: 10px;
     vertical-align: auto;
     display: inline;
+}
+
+#home-icon:hover {
+    text-decoration: none;
+    color: #0a0a0a;
 }
 
 #intro-section {
@@ -380,10 +387,29 @@ footer h5 {
     padding-top: 0.5%; 
 }
 
+.footer-links {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.footer-links:hover {
+    color: #aaabb4;
+    text-decoration: none;
+}
+
+.fab:hover {
+    color: #aaabb4;
+}
+
 .card {
     display: inline-block;
     width: 30%;
+    height: 200px;
 }
+
+/* .card-body {
+    height: 100px;
+} */
 
 @media screen and (max-width: 767px) {
 .callout p, #intro-section {
