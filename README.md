@@ -87,11 +87,28 @@ This section should describe the process you went through to deploy the project 
 ## Credits
 
 ### Content
-- Coding for the re-styled radio buttons within the booking form on the Contact Page was copied and adapted from Markheath.net (https://markheath.net/post/customize-radio-button-css).
-- Narrative for the 'Pads Card' within the 'Gym' page came from the Decathlon website "https://play.decathlon.co.uk/articles/why-and-how-to-use-pads".
+- Coding for the re-styled radio buttons within the booking form on the Contact Page was copied and adapted from the Markheath.net website (https://markheath.net/post/customize-radio-button-css).
+- Narrative for the 'Pads Card' within the 'Gym' page is adapted from the Decathlon Store website "https://play.decathlon.co.uk/articles/why-and-how-to-use-pads".
 
 ### Media
-- The photos used in this site were obtained from Unsplash.com and Pexels.com.
+- The photos used in this site were obtained from Unsplash.com and Pexels.com:
+
+index.html images:
+Hero-image boxing ring photo by David Guliciuc on Unsplash.com.
+Men boxing photo by David Guliciuc on Unsplash.com.
+Child boxing photo by David Guliciuc on Unsplash.com.
+Fitness photo by Leon Ardho from Pexels.com.
+
+contact.html images:
+Boxing gloves photo by Prateek Katyal on Unsplash.com.
+
+gym.html:
+Gym photo by Wade Austin Ellis on Unsplash.com.
+Dumbells photo by Danielle Cerullo on Unsplash.com.
+
+
+Exo and Play fonts were imported from the Google Fonts website (https://fonts.google.com/).
+The Dumbell icon was imported from and kindly provided by Font Awesome (https://fontawesome.com/).
 
 ### Acknowledgements
 
