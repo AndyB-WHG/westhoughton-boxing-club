@@ -404,32 +404,20 @@ footer h5 {
 #gym-body {
     background: #0a0a0a;
 }
-
-#gym-cards-section {
-    width: 100%;
-     margin-right: 0;
-}
-
-.card {
-    border: 0px;
-    padding: 10px;
-
-}
-
-@media screen and (max-width: 767px) {
-.callout p, #intro-section {
-    font-size: 1.2em;}
-}
-        
-
+    
 @media screen and (max-width: 768px) {
 .class-times {
     padding-top: 2em;
     padding-bottom: 2em;}
 }
 
+@media screen and (max-width: 767px) {
+.callout p, #intro-section {
+    font-size: 1.2em;}
+}
+
 @media screen and (max-width: 768px) {
-.class-times h4{
+.class-times h4 {
     font-size: 1.1em;}
 }
 
