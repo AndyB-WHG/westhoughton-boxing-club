@@ -4,6 +4,8 @@ Project - User Centric Frontend Development - Code Institute
 
 This is a website to promote a fictional local boxing club. It serves as an advertisement for the club. It gives information about opening times, activities, schedules and contact details, whilst also providing a platform for new and current customers.
  
+
+
 ## UX
 Three page site – all pages scrolling down to equivalent of 2-3 desktop pages.
 Mobile version condenses each page to a single column. Home page provides details of activities and acts as an advertisement providing positive imagery plus information about who the club is aimed at and what activities are available.
@@ -26,7 +28,7 @@ Page three provides information about the gym and the various forms of training 
 
 4. As a user I would like to know if boxing lessons are available and, if so, how to go about booking a lesson/lessons.
 
-* Page one of the site gives regular lesson times for both adults and children and has a ‘book now’ button which links to a booking form on the Contact Page (page 2). 
+* Page one of the site gives regular lesson times for both adults and children and has a ‘Booking Details’ button within each section which link to a booking form on the Contact Page (page 2). 
 
 5. As a user I would like to see the facilities the club provides to check the environment is suitable for my needs.
 
@@ -40,50 +42,46 @@ Wireframes [link](https://github.com/AndyB-WHG/westhoughton-boxing-club/blob/mas
 ### 1. Home page icon at top left gives users the option to go back to the top of the home page at any time.  Static and fixed to top of page with content scrolling underneath.
 ### 2. Static Nav Bar across top right of all pages giving quick access to different sections. Allows users to quickly navigate to various parts of the website.
 ### 3. Burger button at top right on Mobile screen-sizes which expands to give the same Navigation options seen on larger screen sizes.
-### 4. ‘Book now’ buttons within various timetable sections on home page. Buttons connect directly to ‘Contact Form’ on page 2 to enable users to book training sessions and lessons.
+### 4. ‘Booking Details’ buttons within various timetable sections on home page. Buttons connect directly to ‘Contact Form’ on page 2 to enable users to book training sessions and lessons.
 ### 5. ‘Booking’ form within 'Contact' page which includes various text input fields and a radio-button selection to enable users to book lessons or fitness sessions.
 ### 6. Links within Footer section to social media sites (Twitter, Instagram, Youtube, Facebook) to build wider appeal.
 ### 7. Interactive map beneath Contact Details section on page 2 to enable users to see exactly where the gym is located.
 ### 8. Gym page has 'Book Session' buttons linking to the 'Booking Form' on the 'Contact' page. 
 
 
+
+
 ## Technologies Used
 
-HTML5 (make this a link), CSS3 (make this a link) and Boostrap v.4.1 (make this a link) implemented to make the site both responsive to various viewports and pleasing to view.
-Balsamiq (make this a link) wireframes were used to design the initial look of the site.
+[HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5), [CSS3](https://en.wikipedia.org/wiki/CSS) and [Boostrap v.4.1](https://getbootstrap.com/docs/4.1/getting-started/introduction/) implemented to make the site both responsive to various viewports and pleasing to view.
+[Balsamiq](https://balsamiq.com/) wireframes were used to design the initial look of the site.
+
+
 
 
 ## Testing
 
-To be confirmed - Home link at top left of both pages tested and works as expected.
-To be confirmed - All Nav Bar links tested on both pages and found to be working as expected.
-To be confirmed - Scroll bar works as expected.
-To be confirmed - ‘Book Now’ buttons for each of the three sections (Adults, Kids, Fitness) all tested and link to the ‘Contact Us’ section as designed.
-To be confirmed - All social media links in Footer section work as expected.  
-To be confirmed - ‘Find Us’ and ‘Contact Us’ links in Footer section link to top of page 2 (Map Section) and as expected.
-To be confirmed - Mobile version of site renders as a single column for each page as expected.
-To be confirmed - All larger viewports render as two columns as per design.
-To be confirmed - Contact Us form tested and works as expected:
-To be confirmed - Name and Address fields are text only and limited in number of characters allowed. 
-To be confirmed - Email address is limited to recognised email formats only
-To be confirmed - Age is limited to two digits. For children, max is 17. For adults, min is 18.
-To be confirmed - For telephone numbers, limited to numbers only.
-To be confirmed - For dates, input is limited to standard UK date format.
-To be confirmed - Submission is prevented unless all relevant data has been correctly provided.
+* Home link at top left of both pages tested and works as expected.
+* All Nav Bar links tested each of the three pages and were found to be working as expected.
+* Nav links condense into a single 'Burger' icon at top right on small/mobile-sized viewports as expected.
+* 'Burger' buttton expands to provide all links seen on larger screen sizes as expected.
+* Scroll bar on all three pages works as expected.
+* ‘Booking Details’ buttons for each of the three sections (Adults, Kids, Fitness) all tested and link to the ‘Contact Us’ section as designed.
+* All social media links in Footer sections of each page work as expected.  
+* All links in Footer sections of each page work as as expected.
+* Mobile version of pages render as a single column as designed.
+* All medium sized and larger viewports render as two columns as expected. The 'Cards' section of the 'Gym' page renders in three columns for larger viewports as designed.
+* 'Booking Form' form tested and works as expected: all fields require an input;  email field requires a valid email format. Submission is prevented unless all relevant data has been correctly provided.
 
-To be confirmed - Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+Note: the expended Nav Burger options currently list to left of the screen. It was envisaged they would expend to the right but have been unable to resolve at the current time.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
 
 ## Deployment
 Project was developed using the Gitpod online IDE (integrated development environment) and pushed to the Github collaborative development platform.  
 The finished project is hosted on GitHub Pages at the following address (to be confirmed).
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+
 
 
 ## Credits
@@ -106,8 +104,13 @@ contact.html images:
 Boxing gloves photo by Prateek Katyal on Unsplash.com.
 
 gym.html:
-Gym photo by Wade Austin Ellis on Unsplash.com.
+Gym hero image by Wade Austin Ellis on Unsplash.com.
 Dumbells photo by Danielle Cerullo on Unsplash.com.
+Pads session photo by cottonbro from Pexels.com.
+Punch bag photo by Milo Bunnik on Unsplash.com.
+Sparring photo by cottonbro from Pexels.com.
+Skipping photo by cottonbro from Pexels.
+Endurance photo by Sven Mieke on Unsplash.
 
 The images listed above were optimized and compressed on the free to use TinyJPG website (https://tinyjpg.com/).
 Exo and Play fonts were imported from the free Google Fonts website (https://fonts.google.com/).
