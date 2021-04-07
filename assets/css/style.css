@@ -74,7 +74,7 @@ footer h5 {
     z-index: 10;
 }
 
-/*--------------------------------------------------------------- End of Nav Bar Section ---------*/
+/*------------------------------------------------------------- / End of Nav Bar Section ---------*/
 
 /*----------------------------------------------------------Home Page Hero Image Section ---------*/
 
@@ -150,7 +150,7 @@ footer h5 {
     display: inline-block;
 } */
 
-/*----------------------------------------------------- End of Home Page Hero Image Section ---------*/
+/*--------------------------------------------------- / End of Home Page Hero Image Section ---------*/
 
 #intro-section {
     padding: 5%;
@@ -219,8 +219,10 @@ footer h5 {
     border-style: solid;
 }
 
-/*------------------------------------------------------------- End of Home Page 'Classes' Section -------*/ 
+/*----------------------------------------------------------- / End of Home Page 'Classes' Section -------*/
 
+
+/*-----Contact Page Styling Section --------*/
 
 /*------------------------------------------------------- Booking Form Section - Contact Us Page ---------*/
 
@@ -274,7 +276,9 @@ footer h5 {
     border-color: #180808;
 }
 
-/*-----------------------------------------------------------------  Radio Button Styling ---------*/ 
+/*-----------------------------------------/ End of Booking Form Section - Contact Us Page ---------*/
+
+/*------------------------------------------------- Radio Button Styling - Contact Us Page ---------*/ 
 
 .book-session input[name="session-choice"] {
     opacity: 0;
@@ -306,9 +310,7 @@ footer h5 {
     font-size: 1.1em;
 }
 
-/*------------------------------------------------------------ / End of Radio Button Styling ---------*/ 
-
-/*------------------------------------------ / End of Booking Form Section - Contact Us Page ---------*/
+/*------------------------------------------- / End of Radio Button Styling - Contact Us page --------*/ 
 
 
 /*----------------------------------------------- 'Contact Us box' styling - Contact Us page ---------*/ 
@@ -344,19 +346,21 @@ footer h5 {
     padding-top: 0%;
 }
 
-/*----------------------------------------- End of 'Contact Us box' styling - Contact Us page ---------*/
+/*--------------------------------------- / End of 'Contact Us box' styling - Contact Us page ---------*/
 
 #map {
     height: 395px;
 }
 
 
-/*------------------------------------------------------------ End of Contact Page Styling Section --------*/ 
+/*------ / End of Contact Page Styling Section --------*/ 
 
 .col, .col-md-6 {
     padding-left: 0px;
     padding-right: 0px;
 }
+
+/*---------------------------------------------------------------------- Footer Styling Section --------*/ 
 
 .social-media li {
     display: inline;
@@ -384,10 +388,13 @@ footer h5 {
     color: #aaabb4;
 }
 
+/*------------------------------------------------------------- / End of Footer Styling Section --------*/
+
 #gym-body {
     background: #0a0a0a;
 }
 
+/*------------------------------------------------------------------- Responsive Sizing Section --------*/
 
 @media screen and (max-width: 900px) {
 .class-times h4 {
@@ -419,3 +426,5 @@ footer h5 {
 .session-box h3 {
     padding-top: 10px;}
 }
+
+/*---------------------------------------------------------- / End of Responsive Sizing Section --------*/
