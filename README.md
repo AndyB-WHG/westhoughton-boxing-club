@@ -106,13 +106,16 @@ gym.html:
 Gym photo by Wade Austin Ellis on Unsplash.com.
 Dumbells photo by Danielle Cerullo on Unsplash.com.
 
+The images listed above were optimized and compressed on the free to use TinyJPG website (https://tinyjpg.com/).
+Exo and Play fonts were imported from the free Google Fonts website (https://fonts.google.com/).
+The Dumbell icon was imported free of charge from, and kindly provided by, Font Awesome (https://fontawesome.com/).
+The map data is provided by Google Maps (https://www.google.co.uk/maps/.)
+The shortened Google Maps link was ceated using the free to use Bitly website (https://bitly.com/).
 
-Exo and Play fonts were imported from the Google Fonts website (https://fonts.google.com/).
-The Dumbell icon was imported from and kindly provided by Font Awesome (https://fontawesome.com/).
 
 ### Acknowledgements
 
 - I received inspiration for this project from Code Institute who originally suggested a ‘gym’ website, which led to a variation on that theme due to my interest in boxing. 
-- Ideas for design layout came from websites for ‘The Rathbone Boxing Club’ in London, ‘The Fight Factory’ boxing club in Manchester and ‘MTK Liverpool’ boxing and fitness club.
+- Ideas for design layout came mainly from ‘The Rathbone Boxing Club’ website, based in London, ‘The Fight Factory’ boxing club in Manchester and ‘MTK Liverpool’ boxing and fitness club.
 - General information and knowledge came from both the Code Institute course materials and W3Schools.com.
 - Image optimisation information was gained from Jimdo.com (https://www.jimdo.com/blog/optimize-website-images-for-better-design-seo/)
