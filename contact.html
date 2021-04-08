@@ -21,7 +21,7 @@
 
     <div class="nav-wrapper">
         <nav class="navbar navbar-expand-sm navbar-light bg-light">
-            <a id="home-icon" aria="Home button - click to go to home page" href="index.html"><i class="fas fa-home"></i></a>
+            <a id="home-icon" aria-label="Home button - click to go to home page" href="index.html"><i class="fas fa-home"></i></a>
 
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,11 +30,11 @@
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mr-2 nav-right" aria="Link to Adults section on home page"><a class="nav-link" href="#adults-boxing">Adults</a></li>
-                    <li class="nav-item mr-2" aria="Link to Kids section on home page"><a class="nav-link" href="#child-boxing-image">Kids</a></li>
-                    <li class="nav-item mr-2" aria="Link to Fitness section on home page"><a class="nav-link" href="#fitness-session-image">Fitness</a></li>
-                    <li class="nav-item mr-2 active" aria="Link to Contact page"><a class="nav-link" href="contact.html">Contact</a></li>
-                    <li class="nav-item mr-2" aria="Link to Gym page"><a class="nav-link" href="gym.html">The Gym</a></li>
+                    <li class="nav-item mr-2 nav-right" aria-label="Link to Adults section on home page"><a class="nav-link" href="index.html#adults-boxing">Adults</a></li>
+                    <li class="nav-item mr-2" aria-label="Link to Kids section on home page"><a class="nav-link" href="index.html#child-boxing-image">Kids</a></li>
+                    <li class="nav-item mr-2" aria-label="Link to Fitness section on home page"><a class="nav-link" href="index.html#fitness-session-image">Fitness</a></li>
+                    <li class="nav-item mr-2 active" aria-label="Link to Contact page"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item mr-2" aria-label="Link to Gym page"><a class="nav-link" href="gym.html">The Gym</a></li>
                 </ul>
             </div>
         </nav>
@@ -44,7 +44,7 @@
 
     <!-- Hero image -->
 
-    <header id="contact-page-hero-image" alt="Boxing gloves photo by Prateek Katyal on Unsplash" aria="Boxing Gloves header image">
+    <header id="contact-page-hero-image" alt="Boxing gloves photo by Prateek Katyal on Unsplash" aria-label="Boxing Gloves header image">
         <div id="hero-div" class="container-fluid">           
             <div class="callout">
                 <div class="spacer"></div>
@@ -65,35 +65,35 @@
             <!-- / Booking Form -->
             
             <div class="col-12 col-md-6">
-                <form method="POST" action="https://formdump.codeinstitute.net/" class="book-session" aria="Booking form to choose a training session">
+                <form method="POST" action="https://formdump.codeinstitute.net/" class="book-session" aria-label="Booking form to choose a training session">
                     <h2>Lets get training!<i class="fas fa-dumbbell"></i></h2>
                     <label for="fname">First Name</label>
-                    <input class="text-input" id="fname" type="text" name="first_name" required aria="First name input box"> 
+                    <input class="text-input" id="fname" type="text" name="first_name" required aria-label="First name input box"> 
 
                     <label for="lname">Last Name</label>
-                    <input class="text-input" id="lname" type="text" name="last_name" required aria="Last name input box">
+                    <input class="text-input" id="lname" type="text" name="last_name" required aria-label="Last name input box">
 
                     <label for="email">Email Address</label>
-                    <input class="text-input" id="email" type="email" name="email_address" required aria="Email input box">
+                    <input class="text-input" id="email" type="email" name="email_address" required aria-label="Email input box">
 
                     <p>Select a session:</p>
 
-                    <input class="radio-training" id="adult" type="radio" name="session-choice" value="adult" required aria="Button to select the Adult boxing class">
+                    <input class="radio-training" id="adult" type="radio" name="session-choice" value="adult" required aria-label="Button to select the Adult boxing class">
                     <label class="radio-label-training" for="adult">Adult Class</label>
 
-                    <input class="radio-training" id="kids" type="radio" name="session-choice" value="kids" aria="Button to select the Kids boxing class">
+                    <input class="radio-training" id="kids" type="radio" name="session-choice" value="kids" aria-label="Button to select the Kids boxing class">
                     <label class="radio-label-training" for="kids">Kids Class</label>
 
-                    <input class="radio-training" id="boxercise" type="radio" name="session-choice" value="boxercise" aria="Button to select the Boxercise class">
+                    <input class="radio-training" id="boxercise" type="radio" name="session-choice" value="boxercise" aria-label="Button to select the Boxercise class">
                     <label class="radio-label-training" for="boxercise">Boxersize</label>
 
-                    <input class="radio-training" id="strength" type="radio" name="session-choice" value="strength" aria="Button to select the Strength Training class"> 
+                    <input class="radio-training" id="strength" type="radio" name="session-choice" value="strength" aria-label="Button to select the Strength Training class"> 
                     <label class="radio-label-training" for="strength">Strength Training</label>
 
-                    <input class="radio-training" id="enduro" type="radio" name="session-choice" value="enduro" aria="Button to select the Endurance Training class">
+                    <input class="radio-training" id="enduro" type="radio" name="session-choice" value="enduro" aria-label="Button to select the Endurance Training class">
                     <label class="radio-label-training" for="enduro">Enduro HIIT</label>
 
-                    <input class="submit-training-button" type="submit" value="Book Training!" aria="Submit button to book training session">
+                    <input class="submit-training-button" type="submit" value="Book Training!" aria-label="Submit button to book training session">
                 </form>
             </div>
 
@@ -101,9 +101,9 @@
 
             <!-- Contact Us Details -->
 
-            <div id="contact-us" class="col-md-6" aria="Contact details and opening times">
+            <div id="contact-us" class="col-md-6" aria-label="Contact details and opening times">
                 <div id="contact-text-block">
-                    <h3 id="contact-us-text" "text-uppercase">
+                    <h3 id="contact-us-text" class="text-uppercase">
                         Contact Us
                     </h3>
                     <p>
@@ -201,7 +201,7 @@
     <section id="map">
         <iframe
             src="https://bit.ly/2Q1UwZh"
-            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" aria="Google map showing the gym location">
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" aria-label="Google map showing the gym location">
         </iframe>
     </section>
 
@@ -227,14 +227,14 @@
                         <a class="footer-links" href="gym.html">The Gym</a> 
                     </h5>
                     <ul class="social-media">
-                        <li><a href="https://www.facebook.com/" target="_blank" aria="Go to our Facebook page (opens in separate tab)"><i class="fab fa-facebook-square"></i></a></li>
-                        <li><a href="https://twitter.com/?lang=en-gb" target="_blank" aria="Go to our Twitter page (opens in separate tab)"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="https://www.youtube.com/" target="_blank" aria="Go to our Youtube page (opens in separate tab)"><i class="fab fa-youtube"></i></a></li>
-                        <li><a href="https://www.instagram.com/" target="_blank" aria="Go to our Instagram page (opens in separate tab)"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank" aria-label="Go to our Facebook page (opens in separate tab)"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="https://twitter.com/?lang=en-gb" target="_blank" aria-label="Go to our Twitter page (opens in separate tab)"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank" aria-label="Go to our Youtube page (opens in separate tab)"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank" aria-label="Go to our Instagram page (opens in separate tab)"><i class="fab fa-instagram"></i></a></li>
                     </ul>
                 </div>
 
-                <div class="col" aria="The gym adddress">
+                <div class="col" aria-label="The gym adddress">
                     <h5>
                         1 The Avenue
                     </h5>

@@ -20,7 +20,7 @@
 
     <div class="nav-wrapper">
         <nav class="navbar navbar-expand-sm navbar-light bg-light">
-            <a id="home-icon" aria="Home button - click to go to home page" href="index.html"><i class="fas fa-home"></i></a>
+            <a id="home-icon" aria-label="Home button - click to go to home page" href="index.html"><i class="fas fa-home"></i></a>
 
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,11 +29,11 @@
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mr-2 nav-right" aria="Link to Adults section on home page"><a class="nav-link" href="#adults-boxing">Adults</a></li>
-                    <li class="nav-item mr-2" aria="Link to Kids section on home page"><a class="nav-link" href="#child-boxing-image">Kids</a></li>
-                    <li class="nav-item mr-2" aria="Link to Fitness section on home page"><a class="nav-link" href="#fitness-session-image">Fitness</a></li>
-                    <li class="nav-item mr-2" aria="Link to Contact page"><a class="nav-link" href="contact.html">Contact</a></li>
-                    <li class="nav-item mr-2" aria="Link to Gym page"><a class="nav-link" href="gym.html">The Gym</a></li>
+                    <li class="nav-item mr-2 nav-right"><a class="nav-link" href="#adults-boxing" aria-label="Link to Adults section on home page">Adults</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="#child-boxing-image" aria-label="Link to Kids section on home page">Kids</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="#fitness-session-image"  aria-label="Link to Fitness section on home page">Fitness</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="contact.html"  aria-label="Link to Contact page">Contact</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="gym.html"  aria-label="Link to Gym page">The Gym</a></li>
                 </ul>
             </div>
         </nav>
@@ -43,7 +43,7 @@
 
     <!-- Hero image and Callout -->
 
-    <header id="hero-image" alt="boxing ring Photo by David Guliciuc on Unsplash" aria="Hero image of a boxer in a boxing ring">
+    <header id="hero-image" aria-label="Hero image of a boxer in a boxing ring">
         <div id="hero-div" class="container-fluid">           
             <div class="callout">
                 <div class="spacer"></div>
@@ -53,7 +53,7 @@
             </div>
 
             <div id="sign-up-button-wrapper">
-                <a id="sign-up-button" href="contact.html#booking-form" aria="Sign up button linking to Booking Form on Contact page">
+                <a id="sign-up-button" href="contact.html#booking-form" aria-label="Sign up button linking to Booking Form on Contact page">
                     Sign Up!
                 </a>
             </div>
@@ -77,14 +77,14 @@
 
         <!-- Adult, Child, Fitness Class info -->
 
-        <div id="adults-boxing" class="container-fluid">
+        <section id="classes-to-attend" class="container-fluid">
             <div class="row">
                 <div class="col-md-6">
-                    <div id="adults-boxing-image" alt="Men boxing photo by David Guliciuc on Unsplash" aria="Two Adult men sparring with boxing gloves"></div>
+                    <div id="adults-boxing-image"></div>
                 </div>
 
 
-                <div id="adult-class-times" class="session-box class-times col-md-6">
+                <section id="adult-class-times" class="session-box class-times col-md-6" aria-labrl="Adult class times">
                     <h3 class="text-uppercase">
                         Adult Classes
                     </h3>
@@ -98,16 +98,16 @@
                         Friday: 7:30pm
                     </h4>                    
                     <p class="booking-details-box">
-                        <a href="contact.html#booking-form" class="booking-details-button" aria="Button linking to Booking Form on Contact page">
+                        <a href="contact.html#booking-form" class="booking-details-button" aria-label="Button linking to Booking Form on Contact page">
                             Booking Details
                         </a>
                     </p>    
-                </div>
+                </section>
 
             </div>
             <div class="row flex-container">
 
-                <div id="kids-class-times" class="session-box class-times col-md-6">
+                <section id="kids-class-times" class="session-box class-times col-md-6" aria-label="Kids' class times">
                     <h3 class="text-uppercase">
                         Kids Classes
                     </h3>
@@ -121,21 +121,21 @@
                         Friday: 5:00pm
                     </h4>
                     <p class="booking-details-box">
-                        <a href="contact.html#booking-form" class="booking-details-button" aria="Button linking to Booking Form on Contact page">
+                        <a href="contact.html#booking-form" class="booking-details-button" aria-label="Button linking to Booking Form on Contact page">
                             Booking Details
                         </a>
                     </p>
                 </div>
 
                 <div class="col-md-6">
-                    <div id="child-boxing-image" alt="Child boxing image by David Guliciuc on Unsplash" aria="Girl training with a punching bag"></div>
+                    <div id="child-boxing-image"></div>
                 </div>
 
             </div>
             <div class="row">
 
                 <div class="col-md-6">
-                    <div id="fitness-session-image" alt="Fitness photo by Leon Ardho from Pexels" aria="Picture of man and woman training with ropes"></div>
+                    <div id="fitness-session-image"></div>
                 </div>
 
                 <div id="fitness-class-times" class="session-box class-times col-md-6">
@@ -152,13 +152,13 @@
                         Sunday: 6:00pm - Enduro HIIT
                     </h4>
                     <p class="booking-details-box">
-                        <a href="contact.html#booking-form" class="booking-details-button" aria="Button linking to Booking Form on Contact page">
+                        <a href="contact.html#booking-form" class="booking-details-button" aria-label="Button linking to Booking Form on Contact page">
                             Booking Details
                         </a>
                     </p>                    
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- / Adult, Child, Fitness Class info -->
 
@@ -183,10 +183,10 @@
                         <a class="footer-links" href="gym.html">The Gym</a> 
                     </h5>
                     <ul class="social-media">
-                        <li><a href="https://www.facebook.com/" target="_blank" aria="Go to our Facebook page (opens in separate tab)"><i class="fab fa-facebook-square"></i></a></li>
-                        <li><a href="https://twitter.com/?lang=en-gb" target="_blank" aria="Go to our Twitter page (opens in separate tab)"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="https://www.youtube.com/" target="_blank" aria="Go to our Youtube page (opens in separate tab)"><i class="fab fa-youtube"></i></a></li>
-                        <li><a href="https://www.instagram.com/" target="_blank" aria="Go to our Instagram page (opens in separate tab)"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank" aria-label="Go to our Facebook page (opens in separate tab)"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="https://twitter.com/?lang=en-gb" target="_blank" aria-label="Go to our Twitter page (opens in separate tab)"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank" aria-label="Go to our Youtube page (opens in separate tab)"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank" aria-label="Go to our Instagram page (opens in separate tab)"><i class="fab fa-instagram"></i></a></li>
                     </ul>
                     
                 </div>

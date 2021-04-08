@@ -416,13 +416,13 @@ footer h5 {
 }
 
 @media screen and (max-width: 767px) {
-    .flex-container {
+.flex-container {
     display: flex;
     flex-direction: column-reverse;}
 }
 
 @media screen and (max-width: 767px) {
-    #contact-us {
+#contact-us {
     padding-bottom: 2em;}
 }
 
