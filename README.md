@@ -2,15 +2,15 @@
 
 Project - User Centric Frontend Development - Code Institute
 
-This is a website to promote a fictional local boxing club. It serves as an advertisement for the club. It gives information about opening times, activities, schedules and contact details, whilst also providing a platform for new and current customers.
+This is a website to promote a fictional local boxing club. It serves as an advertisement for the club. It gives information about opening times, activities, schedules and contact details, whilst also providing a platform for new and current customers to book training sessions.
  
 
 
 ## UX
 Three page site – all pages scrolling down to equivalent of 2-3 desktop pages.
 Mobile version condenses each page to a single column. Home page provides details of activities and acts as an advertisement providing positive imagery plus information about who the club is aimed at and what activities are available.
-Second page provides contact details, a map and a ‘contact us’ form, plus further positive imagery.
-Page three provides information about the gym and the various forms of training therein.
+Second page provides contact details, a map, a booking form and a contact section, plus further positive imagery.
+Page three provides information about the gym and the various forms of training therein, including cards and photos for each of six gym areas.
 
 ### User Stories
 
@@ -38,17 +38,25 @@ Page three provides information about the gym and the various forms of training 
 
 Wireframes [link](https://github.com/AndyB-WHG/westhoughton-boxing-club/blob/master/wireframes-westhoughton-boxing-club.pdf) for 'Westhoughton Boxing Club'.
 
+### Screenshots from finished site
+
+![Home Page](assets/screenshots/home-page-iphone.PNG) 
+![Home Page](assets/screenshots/home-page-adult-classes-iphone.PNG) 
+![Home Page](assets/screenshots/contact-page-screenshot-ipad.PNG)
+![Home Page](assets/screenshots/contact-page-map-section-ipad.PNG)
+![Home Page](assets/screenshots/gym-page-header-plus-gym-depts-pc.PNG)
+
+
+
 ## Features
-### 1. Home page icon at top left gives users the option to go back to the top of the home page at any time.  Static and fixed to top of page with content scrolling underneath.
-### 2. Static Nav Bar across top right of all pages giving quick access to different sections. Allows users to quickly navigate to various parts of the website.
+### 1. Home page icon at top left gives users the option to go back to the top of the home page at any time.  Static and fixed to top of page with content scrolling beneath.
+### 2. Static Nav Bar across top of all pages giving quick access to the various site sections. Allows users to quickly navigate to various parts of the website.
 ### 3. Burger button at top right on Mobile screen-sizes which expands to give the same Navigation options seen on larger screen sizes.
 ### 4. ‘Booking Details’ buttons within various timetable sections on home page. Buttons connect directly to ‘Contact Form’ on page 2 to enable users to book training sessions and lessons.
-### 5. ‘Booking’ form within 'Contact' page which includes various text input fields and a radio-button selection to enable users to book lessons or fitness sessions.
+### 5. ‘Booking’ form within 'Contact' page - includes various text input fields and a radio-button selection to enable users to book lessons or fitness sessions.
 ### 6. Links within Footer section to social media sites (Twitter, Instagram, Youtube, Facebook) to build wider appeal.
-### 7. Interactive map beneath Contact Details section on page 2 to enable users to see exactly where the gym is located.
-### 8. Gym page has 'Book Session' buttons linking to the 'Booking Form' on the 'Contact' page. 
-
-
+### 7. Interactive map beneath Contact Details section on page 2 to enable users to see exactly where the gym is located and plan a route if required.
+### 8. Gym page has 'Book Session' buttons within each of the six cards linking to the 'Booking Form' on the 'Contact' page. 
 
 
 ## Technologies Used
@@ -61,24 +69,27 @@ Wireframes [link](https://github.com/AndyB-WHG/westhoughton-boxing-club/blob/mas
 
 ## Testing
 
-* Home link at top left of both pages tested and works as expected.
-* All Nav Bar links tested each of the three pages and were found to be working as expected.
+* Home link at top left of all pages tested and works as expected.
+* All Nav Bar links tested on each of the three pages and were found to be working as expected.
 * Nav links condense into a single 'Burger' icon at top right on small/mobile-sized viewports as expected.
 * 'Burger' buttton expands to provide all links seen on larger screen sizes as expected.
 * Scroll bar on all three pages works as expected.
 * ‘Booking Details’ buttons for each of the three sections (Adults, Kids, Fitness) all tested and link to the ‘Contact Us’ section as designed.
-* All social media links in Footer sections of each page work as expected.  
-* All links in Footer sections of each page work as as expected.
+* All social media links in Footer sections of each page work as expected and open in a separate browser tab.  
+* All internal links in Footer sections of each page work as as expected.
 * Mobile version of pages render as a single column as designed.
-* All medium sized and larger viewports render as two columns as expected. The 'Cards' section of the 'Gym' page renders in three columns for larger viewports as designed.
-* 'Booking Form' form tested and works as expected: all fields require an input;  email field requires a valid email format. Submission is prevented unless all relevant data has been correctly provided.
+* All medium sized viewports render as two columns as expected. The 'Cards' section of the 'Gym' page renders in three columns for larger viewports as designed.
+* 'Booking Form' form tested and works as expected: all fields require an input;  email field requires a valid email format. Submission is prevented unless all relevant data has been correctly provided, and a radio button selected.
 
-Note: the expended Nav Burger options currently list to left of the screen. It was envisaged they would expend to the right but have been unable to resolve at the current time.
+Note: the expanded Nav Burger options currently list to left of the screen. It was envisaged they would expand to the right but have been unable to resolve at the current time.
 
 
 
 ## Deployment
-Project was developed using the Gitpod online IDE (integrated development environment) and pushed to the Github collaborative development platform.  
+Project was developed using the Gitpod online IDE (integrated development environment) and pushed to the Github collaborative development platform.
+
+The repository for devopment and collaboration purposes can be found at [Github - Westhoughton Boxing Club](https://github.com/AndyB-WHG/westhoughton-boxing-club).
+
 The finished project is hosted on GitHub Pages at the following address (to be confirmed).
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
@@ -93,36 +104,42 @@ This section should describe the process you went through to deploy the project 
 - Added 'font-display; swap' to style.css as per Chrome 'Lighthouse' advice, to prevent invisible fonts at page load-up.
 
 ### Media
-- The photos used in this site were obtained from Unsplash.com and Pexels.com:
+The photos used in this site were obtained from Unsplash.com and Pexels.com:
 
-index.html images:
-Hero-image boxing ring photo by David Guliciuc on Unsplash.com.
-Men boxing photo by David Guliciuc on Unsplash.com.
-Child boxing photo by David Guliciuc on Unsplash.com.
-Fitness photo by Leon Ardho from Pexels.com.
+1. index.html images:
+- Hero-image boxing ring photo by David Guliciuc on Unsplash.com.
+- Men boxing photo by David Guliciuc on Unsplash.com.
+- Child boxing photo by David Guliciuc on Unsplash.com.
+- Fitness photo by Leon Ardho from Pexels.com.
 
-contact.html images:
-Boxing gloves photo by Prateek Katyal on Unsplash.com.
+2. contact.html images:
+- Boxing gloves photo by Prateek Katyal on Unsplash.com.
 
-gym.html:
-Gym hero image by Wade Austin Ellis on Unsplash.com.
-Dumbells photo by Danielle Cerullo on Unsplash.com.
-Pads session photo by cottonbro from Pexels.com.
-Punch bag photo by Milo Bunnik on Unsplash.com.
-Sparring photo by cottonbro from Pexels.com.
-Skipping photo by cottonbro from Pexels.
-Endurance photo by Sven Mieke on Unsplash.
+3. gym.html:
+- Gym hero image by Wade Austin Ellis on Unsplash.com.
+- Dumbells photo by Danielle Cerullo on Unsplash.com.
+- Pads session photo by cottonbro from Pexels.com.
+- Punch bag photo by Milo Bunnik on Unsplash.com.
+- Sparring photo by cottonbro from Pexels.com.
+- Skipping photo by cottonbro from Pexels.
+- Endurance photo by Sven Mieke on Unsplash.
 
 The images listed above were optimized and compressed on the free to use TinyJPG website (https://tinyjpg.com/).
+
 Exo and Play fonts were imported from the free Google Fonts website (https://fonts.google.com/).
+
 The Dumbell icon was imported free of charge from, and kindly provided by, Font Awesome (https://fontawesome.com/).
+
 The map data is provided by Google Maps (https://www.google.co.uk/maps/.)
+
 The shortened Google Maps link was ceated using the free to use Bitly website (https://bitly.com/).
 
 
 ### Acknowledgements
 
-- I received inspiration for this project from Code Institute who originally suggested a ‘gym’ website, which led to a variation on that theme due to my interest in boxing. 
-- Ideas for design layout came mainly from ‘The Rathbone Boxing Club’ website, based in London, ‘The Fight Factory’ boxing club in Manchester and ‘MTK Liverpool’ boxing and fitness club.
-- General information and knowledge came from both the Code Institute course materials and W3Schools.com.
-- Image optimisation information was gained from Jimdo.com (https://www.jimdo.com/blog/optimize-website-images-for-better-design-seo/)
+I received inspiration for this project from Code Institute who originally suggested a ‘gym’ website, which led to a variation on that theme due to my interest in boxing. 
+
+Ideas for design layout came mainly from ‘The Rathbone Boxing Club’ website, based in London, ‘The Fight Factory’ boxing club in Manchester and ‘MTK Liverpool’ boxing and fitness club.
+General information and knowledge came from both the Code Institute course materials and W3Schools.com.
+
+Image optimisation information was gained from Jimdo.com (https://www.jimdo.com/blog/optimize-website-images-for-better-design-seo/)
