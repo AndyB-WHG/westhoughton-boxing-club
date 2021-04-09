@@ -279,7 +279,7 @@ footer h5 {
 
 /*-----------------------------------------/ End of Booking Form Section - Contact Us Page ---------*/
 
-/*------------------------------------------------- Radio Button Styling - Contact Us Page ---------*/ 
+/*----------- Radio Button Styling - Contact Us Page - Provided by the Markheath.net website (https://markheath.net/post/customize-radio-button-css)---------*/ 
 
 .book-session input[name="session-choice"] {
     opacity: 0;
@@ -307,12 +307,10 @@ footer h5 {
     border: 2px solid #444;
 }
 
-.book-session p{
+.book-session p {
     font-size: 1.1em;
 }
-
-/*------------------------------------------- / End of Radio Button Styling - Contact Us page --------*/ 
-
+/*--------------------------------------------------------------------------------------------------- / End of Radio Button Styling - Contact Us page --------*/ 
 
 /*----------------------------------------------- 'Contact Us box' styling - Contact Us page ---------*/ 
 

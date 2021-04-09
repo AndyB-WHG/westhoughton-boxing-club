@@ -38,13 +38,26 @@ Page three provides information about the gym and the various forms of training 
 
 Wireframes [link](https://github.com/AndyB-WHG/westhoughton-boxing-club/blob/master/wireframes-westhoughton-boxing-club.pdf) for 'Westhoughton Boxing Club'.
 
-### Screenshots from finished site
+### Screenshots from finished site:
 
 ![Home Page](assets/screenshots/home-page-iphone.PNG) 
 ![Home Page](assets/screenshots/home-page-adult-classes-iphone.PNG) 
 ![Home Page](assets/screenshots/contact-page-screenshot-ipad.PNG)
 ![Home Page](assets/screenshots/contact-page-map-section-ipad.PNG)
 ![Home Page](assets/screenshots/gym-page-header-plus-gym-depts-pc.PNG)
+
+
+## Development
+
+Initially the site was envisioned as two pages (Home and Contact) but soon expanded to three to include a Gym page. Having zero design experience, the decision was taken to look around the internet for design ideas rather than try to re-invent the wheel. A number of boxing websites were found to be very appealing so I decided to see if I could use my limited knowledge to re-create some of their ideas and layout. It was decided after some deliberation to include both custom CSS and Bootstrap coding in order to demonstrate some understanding of both.  Use of Bootstrap, whilst intended to ease and speed development, at first was difficult to implement and slowed the creation process to some extent.  Practice and familiarity soon began to bear fruit however and the creation of the third (Gym) page was ultimately straightforward as a direct result of the Bootstrap styling.
+
+Similarly, the navigation bar (Nav bar) across the top of the site was initially difficult to implement due to lack of familiarity with Bootstrap and also due to issues blending the Bootstrap code with my own custom CSS code to create a harmonious design.  The resultant effect was very pleasing, however, although the difficulties resulted in the drop-down list running along the left hand side of the screen rather than the right, to my slight disappointment. Efforts to correct this were unsuccessful, and, due to time constraints, it was necesaary to move on to other features without a solution.
+
+For the second page it was decided from the outset to include both a 'Contact Us' section and an interactive map.  As the project developed rContact Us form was re-designed into a more focussed 'Booking Form', rather than the simple contact/email us form originally envisaged. Initially the new form design included standard Radio Buttons and worked very well, but a search on the internet yielded a blog on the Markheath.net website in which the author had kindly explained (and provided coding for) how to improve the standard Radio Button styling using custom CSS code to give a more pleasing set of shaped buttons which changed colour when selected.  After a few changes to the styling attributes to suit the site colours/design, the result was a much improved look and feel, both for the user and the designer.
+
+The Gym page was intended to provide information about the gym itself, primarly by focussing on the various training sections within the club. After an initial discussion with my mentor regarding overall look and feel, he suggested using Bootstrap 'Cards' to create an appealing experience for the user. The reasoning being that the cards would provide both an image and a description in a neat, self-contained layout, keeping things both simple and easy on the eye.  Having initially agreed, I became worried soon after, given my issues initally implementing Boostrap as discussed earlier.  In the end, however, it was a simple matter to implement once a little Bootstrap experience had been gained - and the result was extremely pleasing.  During the final Mentor session, I suggested that the look of the cards could be improved very slighyly with a squaring off of the corners.  My mentor supplied a style code to implement and it worked very nicely, resulting in a very nice, polished finish to the section.
+
+Coding finished, it was thought that Validation would be a formality. It turned out, however, to be a more complex process than anticipated.  Aria labels were at first an issue, with a misundertanding on the developers part regarding where and how to implement. Thankfully this was resolved without too many difficulties. Further issues were found regarding text within spans, again due to a lack of understanding regarding 'p' and 'h' elements. Again, resolved relatively quickly - it also provied a good source of learning. Eventually the issues disappeared and the overall result is, hopefully, a responsive and attractive site which, if it were for a real boxing club, would provide a enjoyable and pain free user experience.
 
 
 
