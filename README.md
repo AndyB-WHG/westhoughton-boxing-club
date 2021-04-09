@@ -36,7 +36,7 @@ Page three provides information about the gym and the various forms of training 
 
 ### Wireframes
 
-Wireframes [link](https://github.com/AndyB-WHG/westhoughton-boxing-club/blob/master/wireframes-westhoughton-boxing-club.pdf) for 'Westhoughton Boxing Club'.
+- Wireframes [link](https://github.com/AndyB-WHG/westhoughton-boxing-club/blob/master/wireframes-westhoughton-boxing-club.pdf) for 'Westhoughton Boxing Club'.
 
 ### Screenshots from finished site:
 
@@ -99,12 +99,14 @@ Note: the expanded Nav Burger options currently list to left of the screen. It w
 
 
 ## Deployment
+
 Project was developed using the Gitpod online IDE (integrated development environment) and pushed to the Github collaborative development platform.
 
 The repository for devopment and collaboration purposes can be found at [Github - Westhoughton Boxing Club](https://github.com/AndyB-WHG/westhoughton-boxing-club).
 
-The finished project is hosted on GitHub Pages at the following address (to be confirmed).
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+The finished project is hosted on GitHub Pages at the following address:  [https://andyb-whg.github.io/westhoughton-boxing-club/](https://andyb-whg.github.io/westhoughton-boxing-club/).
+
+The site is deployed through Github using their built in web-publishing and hosting service. Please see the video at https://pages.github.com/ for detailed information.
 
 
 
