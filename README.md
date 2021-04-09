@@ -90,6 +90,7 @@ This section should describe the process you went through to deploy the project 
 - Coding for the re-styled radio buttons within the booking form on the Contact Page was copied and adapted from an educational blog posting on the Markheath.net website (https://markheath.net/post/customize-radio-button-css).
 - Narrative for the 'Pads Card' within the 'Gym' page is adapted from the Decathlon Store website "https://play.decathlon.co.uk/articles/why-and-how-to-use-pads".
 - The use of Bootstrap Cards on the Gym page was suggested by my Mentor, Marcel. The card implementation was all my own work except for the removal of a small radius at the corners of each of the cards, the code for the styling of which was given by Marcel.  Code given was: style="border-radius: 0px;".
+- Added 'font-display; swap' to style.css as per Chrome 'Lighthouse' advice, to prevent invisible fonts at page load-up.
 
 ### Media
 - The photos used in this site were obtained from Unsplash.com and Pexels.com:
