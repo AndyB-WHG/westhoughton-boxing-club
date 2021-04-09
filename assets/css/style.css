@@ -17,7 +17,6 @@ h1 {
     background-color: rgba(19, 18, 18, 0.8);
     color: #fafafa;
     text-align: center;
-    border-top: 30%;
     padding-top: 1px;
     display: inline-block;
 }
@@ -51,7 +50,6 @@ footer h5 {
     font-family: 'Exo';
     color: #686464;
     margin-left: 10px;
-    vertical-align: auto;
     display: inline;
 }
 
@@ -118,7 +116,6 @@ footer h5 {
     background-color: rgba(19, 18, 18, 0.9);
     color: #fafafa;
     text-align: center;
-    border-top: 30%;
     padding: 1%;
     display: inline-block;
 }
