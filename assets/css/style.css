@@ -324,7 +324,7 @@ footer h5 {
 }
 
 #contact-us h3 {
-    padding-top: 0.9em;
+    padding-top: 1.6em;
     text-transform: uppercase;
 }
 
@@ -348,6 +348,15 @@ footer h5 {
 #contact-text-block {
     text-align: center;
     padding-top: 0%;
+}
+
+#contact-text-block span {
+    text-align: center;
+    padding-top: 0%;
+}
+
+.days-and-times {
+    padding-right: 4%;
 }
 
 /*--------------------------------------- / End of 'Contact Us box' styling - Contact Us page ---------*/
